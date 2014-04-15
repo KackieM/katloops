@@ -1,0 +1,80 @@
+/*.container;*/
+
+body{
+	margin: 30;
+	padding: 0;
+	background-color: black;
+}
+.page-container{
+	width:80%;
+	margin: 0 auto;
+	background-color: gray;
+	clear: both;
+	font-style: oblique;
+
+}
+
+a{
+	text-decoration: none;
+	color:lavendar;
+
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-style: oblique;
+	background-color: gray;
+	font-size: 2em;
+
+}
+nav, footer {
+	clear:both;
+	min-height: 50px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: black;
+	font color: white;
+}
+
+.top-nav, .bottom-nav {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+}
+.top-nav li, .bottom-nav li {
+	display: inline-block;
+	padding: 15px;
+	margin-left: 10px;
+}
+
+.top-nav li:hover, .bottom-nav li:hover {
+	background: #fff;
+	color: #000000;
+}
+
+.top-nav li:hover a, .bottom-nav li:hover a, {
+	color: #000;
+
+}
+
+/*for jquery */
+
+.welcome, .about, .resume, .myCats {
+	display:none;
+}
+.show {
+	display:block;
+}
+
+ul {
+
+	text-align: center;
+	font-style: oblique;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+
+}

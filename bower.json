@@ -1,0 +1,23 @@
+{
+  "name": "katloops",
+  "version": "1",
+  "authors": [
+    "Katherine Mattison <kbmedisto@gmail.com>"
+  ],
+  "description": "javascript loops",
+  "keywords": [
+    "loops"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0"
+  }
+}
